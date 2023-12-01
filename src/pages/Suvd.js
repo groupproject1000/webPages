@@ -1,27 +1,28 @@
 export default function examplePage() {
-  return (
-    <div className='container'>
-      <title>Website</title>
-      <link rel='icon' href='/favicon.ico' />
+    return (
+      <div className='container'>
+        <title>Website</title>
+        <link rel='icon' href='/favicon.ico' />
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Hey, I'm Gemma. </h1>
+            <h1 className='title'>Hey, I'm Suvd. </h1>
           </div>
           <img
             className='pic'
-            //src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
-            src='https://i.pinimg.com/736x/ea/5f/e2/ea5fe2108b711accc21d732c191c56f6.jpg'
-            alt='gemma'
+            src='https://i.pinimg.com/originals/f9/82/29/f982298c6b649ecaea165885ccb44e5a.jpg'
+            alt='suvd'
           />
 
           <p className='description'>
-            Hi! My name is Gemma Broskie and I'm a computer science major at the University of Colorado Boulder.
-            While I haven't coded that much in the past, I'm a fast learner and excited to get started
-            on many future projects. I grew up in Colorado and I like to read and sew.
+           Hi. My name is Suvd Jargalsaikhan, I was bon in Mongolia and I immigrated here when I was 1. I go CU Boulder and I am a Computer Science major.
           </p>
-        
-          </main>
+
+          <a className='button' href='/'>
+            <p> Back to Home Page</p>
+          </a>
+        </main>
+
         <style jsx>{`
           .container {
             min-height: 100vh;
@@ -113,7 +114,5 @@ export default function examplePage() {
           }
         `}</style>
       </div>
-      
     );
 }
-
