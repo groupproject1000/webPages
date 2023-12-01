@@ -20,7 +20,9 @@ export default function examplePage() {
             While I haven't coded that much in the past, I'm a fast learner and excited to get started
             on many future projects. I grew up in Colorado and I like to read and sew.
           </p>
-
+        <main>
+          
+        </main>
           <a className='button' href='/'>
             <p> Back to Home Page</p>
           </a>
