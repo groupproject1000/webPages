@@ -24,6 +24,19 @@ export default function examplePage() {
           <a className='button' href='/'>
             <p> Back to Home Page</p>
           </a>
+
+          <div className='underline'>
+            <h1 className='title'>Hey, I'm Begum. </h1>
+          </div>
+          
+
+          <p className='description'>
+          Hi. My name is Begum, I was born and raised in Boulder but I'm originally from Turkey. I am studying Computer Science at CU Boulder. I enjoy doing outdoors activities with friends and family.
+          </p>
+
+          <a className='button' href='/'>
+            <p> Back to Home Page</p>
+          </a>
         </main>
 
         <style jsx>{`
